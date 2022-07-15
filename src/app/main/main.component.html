@@ -1,0 +1,365 @@
+<div class="principal">
+
+  <div class="borda">
+
+
+    <h1>MINHA CESTA</h1>
+
+
+
+  </div>
+
+  <div class="carinha">
+
+    <img src="/assets/carinhatriste.png" style=" position: absolute; width: 100px;
+  height: 100px; margin: 20px; margin-left: 110px; margin-top: 90px;">
+    <textarea cols="38" rows="15" id="mensagem" disabled required>
+
+
+
+  </textarea>
+
+
+  </div>
+
+
+
+  <p class="carrinho">
+
+    Carrinho vazio, vamos encontrar<BR> um prato saboroso?
+
+
+  </p>
+
+  <p class="pedido" id="pedido">
+
+    Valor do Pedido:<strong>R$0,00</strong>
+
+
+  </p>
+
+  <p class="minimo">
+
+    Pedido Minimo:<strong>R$0,00</strong>
+
+
+  </p>
+
+  <p class="tempo">
+
+    Tempo médio de Entrega:<strong>45 a 60</strong>
+
+
+  </p>
+  <input type="button" value="Fechar pedido" onclick="Fechar()" class="fechar">
+
+  <!--
+   montando slades
+
+  -->
+
+  <div class="slades">
+
+
+
+    <img src="/assets/logo-slide.jpeg" style="width:650px; height:447px;" class="logo-slade">
+
+
+
+
+
+    <div class="mySlides">
+      <img src="/assets/sanduiche1.jpg" style="width:720px; height:455px; position: absolute;" class="logo-slade2">
+      <div class="Imagem1-slade">
+        <h1>X-Tudo Especial</h1>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img src="/assets/sanduiche2.jpg" style="width:720px; height:455px; position: absolute;" class="logo-slade3">
+      <div class="Imagem1-slade2">
+        <h1>X-Bacon</h1>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img src="/assets/sanduiche3.jpg" style="width:720px; height:455px; position: absolute;" class="logo-slade4">
+      <div class="Imagem1-slade3">
+        <h1>X-Frango</h1>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img src="/assets/sanduiche4.jpg" style="width:720px; height:455px;position: absolute;" class="logo-slade5">
+      <div class="Imagem1-slade4">
+        <h1>X-Queijo</h1>
+      </div>
+    </div>
+
+    <div class="mySlides">
+      <img src="/assets/sanduiche5.jpg" style="width:720px; height:455px;position: absolute;" class="logo-slade6">
+      <div class="Imagem1-slade5">
+        <h1>X-Salada</h1>
+      </div>
+    </div>
+  </div>
+  <button class="esquerda" onclick="plusDivs(-1)">Esquerda</button>
+  <button class="direita" onclick="plusDivs(1)">Direita</button>
+
+  <div class="Cardapio">
+
+
+    <h1>Cardápio</h1>
+
+
+
+  </div>
+
+  <div class="botoes">
+
+
+    <button class="hamburguer" onclick="">
+      <h1>Hamburguer</h1>
+    </button>
+    <button class="picanha" onclick="">
+      <h1>Hamburguer Picanha</h1>
+    </button>
+    <button class="frango" onclick="">
+      <h1>Hamburguer Filé de Frango</h1>
+    </button>
+    <button class="boi" onclick="">
+      <h1>Hamburguer Filé de Boi</h1>
+    </button>
+    <button class="lombo" onclick="">
+      <h1>Hamburguer Lombo</h1>
+    </button>
+    <button class="vegetariano" onclick="">
+      <h1>Hamburguer Vegetariano</h1>
+    </button>
+    <button class="combo" onclick="">
+      <h1>Hamburguer Combo</h1>
+    </button>
+    <button class="artesanal" onclick="">
+      <h1>Hamburguer Artesanal</h1>
+    </button>
+    <button class="porcao" onclick="">
+      <h1>Porção</h1>
+    </button>
+    <button class="massa" onclick="">
+      <h1>Massa</h1>
+    </button>
+    <button class="bebidas" onclick="">
+      <h1>Bebidas</h1>
+    </button>
+    <button class="calabresa" onclick="">
+      <h1>Hamburguer Calabresa</h1>
+    </button>
+  </div>
+
+  <div class="combos">
+
+
+    <div>
+      <select class="combohamburguer">
+        <option class="text" value="0">Hamburguer
+        </option>
+        <option value="1">Hamburguer com Queijo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combopicanha">
+        <option value="0">Hamburguer Picanha</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combofrango">
+        <option value="0">Hamburguer Filé de Frango</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="comboboi">
+        <option value="0">Hamburguer Filé de Bói</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combolombo">
+        <option value="0">Hamburguer Lombo</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combocalabresa">
+        <option value="0">Hamburguer Calabresa</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combovegetariano">
+        <option value="0">Hamburguer Vegetariano</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combocombo">
+        <option value="0">Hamburguer Combo</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combomassa">
+        <option value="0">Massa</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="combobebidas">
+        <option value="0">Bebidas</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="comboporcao">
+        <option value="0">Porção</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+    <div>
+      <select class="comboartesanal">
+        <option value="0">Hamburguer Artetsanal</option>
+        <option value="1">Audi</option>
+        <option value="2">BMW</option>
+        <option value="3">Citroen</option>
+        <option value="4">Ford</option>
+        <option value="5">Honda</option>
+        <option value="6">Jaguar</option>
+        <option value="7">Land Rover</option>
+        <option value="8">Mercedes</option>
+        <option value="9">Mini</option>
+        <option value="10">Nissan</option>
+        <option value="11">Toyota</option>
+        <option value="12">Volvo</option>
+      </select>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+</div>
